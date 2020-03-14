@@ -21,7 +21,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class pilih_level extends AppCompatActivity {
-    public static final String URL = "http://kitsudev.000webhostapp.com/aldo/kuis/";
+    public static final String URL = "http://192.168.43.66/aldo/kuis/";
     private List<Result> results = new ArrayList<>();
     String nama, level, levelQ;
     @BindView(R.id.jmlSoal) TextView soal3;

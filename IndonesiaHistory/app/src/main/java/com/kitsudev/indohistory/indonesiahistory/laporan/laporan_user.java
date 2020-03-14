@@ -26,7 +26,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class laporan_user extends AppCompatActivity {
-    public static final String URL = "http://kitsudev.000webhostapp.com/aldo/user/";
+    public static final String URL = "http://192.168.43.66/aldo/user/";
     private List<Result> results = new ArrayList<>();
     private RecyclerViewAdapter_User viewAdapter;
     @BindView(R.id.recyclerView_barang)

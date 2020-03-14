@@ -21,7 +21,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class kuis extends AppCompatActivity {
-    public static final String URL = "http://kitsudev.000webhostapp.com/aldo/kuis/";
+    public static final String URL = "http://192.168.43.66/aldo/kuis/";
     private List<Result> results = new ArrayList<>();
     private String mAnswer, mChoice1, mChoice2, mChoice3, mChoice4, numQ, nama, levelQ;
     private Button mButtonChoice1,  mButtonChoice2, mButtonChoice3, mButtonChoice4, mExit;

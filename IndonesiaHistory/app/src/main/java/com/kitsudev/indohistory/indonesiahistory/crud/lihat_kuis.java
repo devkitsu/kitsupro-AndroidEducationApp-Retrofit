@@ -24,7 +24,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class lihat_kuis extends AppCompatActivity {
-    public static final String URL = "http://kitsudev.000webhostapp.com/aldo/kuis/";
+    public static final String URL = "http://192.168.43.66/aldo/kuis/";
     private List<Result> results = new ArrayList<>();
     private RecyclerViewAdapter_Kuis viewAdapter;
     @BindView(R.id.recyclerView_barang)

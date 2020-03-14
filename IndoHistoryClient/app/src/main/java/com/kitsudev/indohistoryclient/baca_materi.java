@@ -17,7 +17,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class baca_materi extends AppCompatActivity {
-    public static final String URL = "http://kitsudev.000webhostapp.com/aldo/materi/";
+    public static final String URL = "http://192.168.43.66/aldo/materi/";
     private List<Result> results = new ArrayList<>();
     Context mContext;
     ProgressDialog loading;

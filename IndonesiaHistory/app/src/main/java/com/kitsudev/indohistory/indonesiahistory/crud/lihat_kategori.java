@@ -25,7 +25,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class lihat_kategori extends AppCompatActivity {
-    public static final String URL = "http://kitsudev.000webhostapp.com/aldo/kategori/";
+    public static final String URL = "http://192.168.43.66/aldo/kategori/";
     private List<Result> results = new ArrayList<>();
     private RecyclerViewAdapter_Kategori viewAdapter;
     @BindView(R.id.recyclerView_barang) RecyclerView recyclerView;

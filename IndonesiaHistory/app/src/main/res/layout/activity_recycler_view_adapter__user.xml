@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardElevation="5dp"
+    card_view:cardUseCompatPadding="true">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_vertical_margin"
+
+        android:stretchColumns="1">
+        <TableRow>
+
+            <TextView
+                android:id="@+id/nama1"
+                android:padding="3dip"
+                android:text="Nama: "
+                android:textColor="@android:color/black" />
+
+
+            <TextView
+                android:id="@+id/nama"
+                android:padding="3dip"
+                android:textColor="@android:color/black" />
+
+        </TableRow>
+        <TableRow>
+
+
+            <TextView
+                android:id="@+id/level1"
+                android:padding="3dip"
+                android:text="ID: "
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/level"
+                android:textColor="@android:color/black" />
+        </TableRow>
+    </TableLayout>
+</android.support.v7.widget.CardView>

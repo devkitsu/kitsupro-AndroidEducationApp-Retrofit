@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">[ADMIN]Indo History</string>
+    <string name="signup_button">Daftar</string>
+    <string name="Password_Field">Password</string>
+    <string name="Email_Address">Email</string>
+    <string name="title">[ADMIN]Indo History</string>
+    <string name="desc">Aplikasi Interaktif Belajar Sejarah Indonesia</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_pengenalan"
+            android:icon="@drawable/ic_menu_pengenalan"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_materi"
+            android:icon="@drawable/ic_menu_belajar"
+            android:title="Data Materi" />
+        <item
+            android:id="@+id/nav_kuis"
+            android:icon="@drawable/ic_menu_praktik"
+            android:title="Data Kuis" ></item>
+        <item
+            android:id="@+id/nav_kat"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Data Kategori" />
+        <item
+            android:id="@+id/nav_tentangkami"
+            android:icon="@drawable/ic_menu_tentangkami"
+            android:title="Tentang Kami" />
+        <item
+            android:id="@+id/nav_kuisgambar"
+            android:icon="@drawable/laporan"
+            android:title="Data Laporan" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/back_button"
+            android:title="Keluar" />
+    </group>
+
+</menu>

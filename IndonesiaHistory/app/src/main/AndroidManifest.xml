@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kitsudev.indohistory.indonesiahistory">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".laporan.laporan_user"></activity>
+        <activity android:name=".laporan.laporan_skor" />
+        <activity android:name=".laporan.laporan" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".pengenalan" />
+        <activity android:name=".tentangkami" />
+        <activity android:name=".crud.update_gambar" />
+        <activity android:name=".crud.tambah_kuisgambar" />
+        <activity android:name=".crud.lihat_kuisgambar" />
+        <activity android:name=".kelola_kuisgambar" />
+        <activity android:name=".adapter.RecyclerViewAdapter_Gambar" />
+        <activity android:name=".crud.update_kuis" />
+        <activity android:name=".adapter.RecyclerViewAdapter_Kuis" />
+        <activity android:name=".crud.lihat_kuis" />
+        <activity android:name=".crud.tambah_kuis" />
+        <activity android:name=".test.mulai_kuis" />
+        <activity android:name=".crud.update_materi" />
+        <activity android:name=".crud.lihat_materi" />
+        <activity android:name=".crud.tambah_materi" />
+        <activity android:name=".kelola_materi" />
+        <activity android:name=".kelola_kategori" />
+        <activity android:name=".crud.lihat_kategori" />
+        <activity android:name=".test.KuisMulai" />
+        <activity android:name=".test.KuisHasil" />
+        <activity android:name=".crud.update_kategori" />
+        <activity android:name=".adapter.RecyclerViewAdapter_Kategori" />
+        <activity android:name=".crud.tambah_kategori" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

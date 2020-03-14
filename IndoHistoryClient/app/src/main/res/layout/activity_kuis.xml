@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kuis">
+
+    <TextView
+        android:id="@+id/score_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Score :   "
+        android:textSize="20sp"
+        app:fontFamily="@font/marcellus_sc"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@+id/score_text"
+        android:layout_toRightOf="@id/score_text"
+        android:text="0"
+        android:textSize="20sp"
+        app:fontFamily="@font/marcellus_sc"
+        app:layout_constraintStart_toEndOf="@+id/score_text"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="32dp"
+        android:padding="8dp"
+        android:text="Pertanyaan: "
+        android:textSize="20sp"
+        app:fontFamily="@font/marcellus_sc"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/score_text" />
+
+    <Button
+        android:id="@+id/choice1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#4f8324"
+        android:padding="8dp"
+        android:text=""
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:fontFamily="@font/marcellus_sc"
+        app:layout_constraintTop_toBottomOf="@+id/question" />
+
+    <Button
+        android:id="@+id/choice2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:background="#0f8db4"
+        android:padding="8dp"
+        android:text=" "
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:fontFamily="@font/marcellus_sc"
+        app:layout_constraintTop_toBottomOf="@+id/choice1" />
+
+    <Button
+        android:id="@+id/choice3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:background="#df9307"
+        android:padding="8dp"
+        android:text=""
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:fontFamily="@font/marcellus_sc"
+        app:layout_constraintTop_toBottomOf="@+id/choice2" />
+
+    <Button
+        android:id="@+id/choice4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:background="#9e9305"
+        android:padding="8dp"
+        android:text=""
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:fontFamily="@font/marcellus_sc"
+        app:layout_constraintTop_toBottomOf="@+id/choice3" />
+
+    <Button
+        android:id="@+id/quit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:background="#be0e0e"
+        android:padding="8dp"
+        android:text="quit"
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:fontFamily="@font/marcellus_sc"
+        app:layout_constraintTop_toBottomOf="@+id/choice4" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Level: "
+        android:textSize="20sp"
+        app:fontFamily="@font/marcellus_sc"
+        app:layout_constraintEnd_toStartOf="@+id/level"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:textSize="20sp"
+        app:fontFamily="@font/marcellus_sc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

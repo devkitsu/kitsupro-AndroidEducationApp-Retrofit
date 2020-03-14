@@ -15,6 +15,4 @@ MySQL file:
 
 *NOTES FOR DEMO (username/password)
 
-admin: admin/admin123
-
 client: daynae/123456789
